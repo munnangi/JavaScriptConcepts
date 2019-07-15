@@ -33,7 +33,7 @@ class Validator {
 const validator = new Validator()
 validator.setInvalidMessages('city')
 
-// if you dont want to repeat the bind for all the functions
+// if you dont want to repeat the bind for all the function every time
 
 class Validator {
     constructor() {
