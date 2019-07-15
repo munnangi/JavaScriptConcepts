@@ -16,6 +16,9 @@ const validator = new Validator()
 validator.setInvalidMessages('city')
 // TypeError: Cannot read property 'message' of undefined
 
+
+// to fix the issue bind to state your context explicitly
+
 class Validator {
     constructor() {
         this.message = 'is invalid'
